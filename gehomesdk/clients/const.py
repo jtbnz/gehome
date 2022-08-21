@@ -13,7 +13,7 @@ OAUTH2_CLIENT_ID = "55527330624d73306a63565a554f612b337a3842"
 OAUTH2_CLIENT_SECRET = "714c6574425736715763426e35554778625351684b4f654f3847654d7343733d"
 OAUTH2_REDIRECT_URI = "brillion.6c454f4c53673173385179514c4348616e452b63://oauth/redirect"
 
-LOGIN_URL = "https://accounts-fld.brillion.geappliances.com”
+LOGIN_URL = "https://accounts-fld.brillion.geappliances.com"
 API_URL = "https://api-fld.brillion.geappliances.com"
 SECURE_URL = "https://secure.brillion.geappliances.com"
 
