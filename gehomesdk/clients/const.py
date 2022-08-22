@@ -6,6 +6,11 @@
 #OAUTH2_CLIENT_SECRET = "6476512b5246446d452f697154444941387052645938466e5671746e5847593d"
 #OAUTH2_REDIRECT_URI = "brillion.4e617a766474657344444e562b5935566e51324a://oauth/redirect"
 
+#LOGIN_URL = "https://accounts.brillion.geappliances.com"
+#API_URL = "https://api.brillion.geappliances.com"
+#SECURE_URL = "https://secure.brillion.geappliances.com"
+
+
 
 # Testing for Field Trial Appliances
 OAUTH2_APP_ID = "com.ge.kitchen.wca.dev.android"
@@ -18,9 +23,6 @@ API_URL = "https://api-fld.brillion.geappliances.com"
 SECURE_URL = "https://secure.brillion.geappliances.com"
 
 
-#LOGIN_URL = "https://accounts.brillion.geappliances.com"
-#API_URL = "https://api.brillion.geappliances.com"
-#SECURE_URL = "https://secure.brillion.geappliances.com"
 
 LOGIN_REGIONS = {
   "US": "us-east-1",
