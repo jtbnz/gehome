@@ -11,7 +11,7 @@ if FIELD_TRIAL:
   LOGIN_URL = "https://accounts-fld.brillion.geappliances.com"
   API_URL = "https://api-fld.brillion.geappliances.com"
 else:
-  OAUTH2_APP_ID = "com.ge.kitchen.wca.prd.android"
+  OAUTH2_APP_ID = "com.ge.kitchen.wca.fld.android"
   OAUTH2_CLIENT_ID = "564c31616c4f7474434b307435412b4d2f6e7672"
   OAUTH2_CLIENT_SECRET = "6476512b5246446d452f697154444941387052645938466e5671746e5847593d"
   OAUTH2_REDIRECT_URI = "brillion.4e617a766474657344444e562b5935566e51324a://oauth/redirect"
