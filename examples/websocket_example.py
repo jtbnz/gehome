@@ -22,7 +22,7 @@ from gehomesdk import (
     ErdOvenCookMode,
     GeAppliance,
     GeWebsocketClient,
-    OvenCookSetting,
+    ErdWaterHeaterMode,
     OVEN_COOK_MODE_MAP
 )
 
