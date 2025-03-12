@@ -1,4 +1,4 @@
-from gehomesdk.erd.values import ErdWaterHeaterBoostMode
+from gehomesdk.erd.values import ErdWaterHeaterBoostModeState
 
 from ..abstract import ErdReadWriteConverter
 from ..primitives import *
