@@ -4,14 +4,11 @@ from typing import Optional
 
 @enum.unique
 class ErdWaterHeaterBoostMode(enum.Enum):
-    HYBRID = 0
-    STANDARD_ELECTRIC = 1
-    HEAT_PUMP = 2
-    HIGH_DEMAND = 3
-    VACATION = 4
+    OFF = 0
+    ON = 1
     UNKNOWN = -1
 
     def stringify(self, **kwargs) -> Optional[str]:
-        if self == ErdWaterHeaterMode.UNKNOWN:
+        if self == ErdWaterHeaterBoostMode.UNKNOWN:
             return None
-        return self.name.title().replace("_", " ")
+        return self.name.title()
